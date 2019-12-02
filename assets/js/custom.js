@@ -17,12 +17,14 @@ var initialText = document.getElementById("initial-text");
 closeText.onclick=function(){
     initialText.style.display = 'none';
     initialText.style.color = '0';
+    /*$("#uprising-video").toggle();
+    $("#uprising-video").RTOP_VideoPlayer();*/
 };
 
 $("#simulation-button").click(function(){
-    $("#simulation-theory").toggle()
+    $("#simulation-theory").toggle();
 });
 
 $("#drones-button").click(function(){
-    $("#drones").toggle()
+    $("#drones").toggle();
 });
