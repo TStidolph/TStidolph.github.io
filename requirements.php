@@ -19,10 +19,10 @@
             <div class="collapse navbar-collapse"
                 id="navcol-1">
                 <ul class="nav navbar-nav ml-auto">
-                    <li class="nav-item" role="presentation"><a class="nav-link" href="index.html">Home</a></li>
-                    <li class="nav-item" role="presentation"><a class="nav-link active" href="requirements.html">Requirements</a></li>
-                    <li class="nav-item" role="presentation"><a class="nav-link" href="login.html">LOGIN</a></li>
-                    <li class="nav-item" role="presentation"><a class="nav-link" href="registration.html">Register</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link" href="index.php">Home</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link" href="requirements.php">Requirements</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link" href="login.php">LOGIN</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link" href="registration.php">Register</a></li>
                 </ul>
             </div>
         </div>
