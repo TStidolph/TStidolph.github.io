@@ -34,12 +34,9 @@
                     <h2 class="text-info">Log In</h2>
                     <p>If you have an account, log in here.</p>
                 </div>
-                <form>
-                    <div class="form-group"><label for="email">Username</label><input class="form-control" type="text"></div>
-                    <div class="form-group"><label for="password">Password</label><input class="form-control" type="password" id="password"></div>
-                    <div class="form-group">
-                        <div class="form-check"><input class="form-check-input" type="checkbox" id="checkbox"><label class="form-check-label" for="checkbox">Remember me</label></div>
-                    </div><button class="btn btn-primary btn-block" type="submit">Log In</button></form>
+                <form method="post" action="validate-login.php">
+                    <div class="form-group"><label>Username</label><input class="form-control" type="text"></div>
+                    <div class="form-group"><label for="password">Password</label><input class="form-control" type="password" id="password"></div><button class="btn btn-primary btn-block" type="submit">Log In</button></form>
             </div>
         </section>
     </main>
