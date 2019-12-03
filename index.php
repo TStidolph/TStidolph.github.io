@@ -22,7 +22,6 @@
                     <li class="nav-item" role="presentation"><a class="nav-link" href="index.php">Home</a></li>
                     <li class="nav-item" role="presentation"><a class="nav-link" href="requirements.php">Requirements</a></li>
                     <li class="nav-item" role="presentation"><a class="nav-link" href="login.php">LOGIN</a></li>
-                    <li class="nav-item" role="presentation"><a class="nav-link" href="registration.php">Register</a></li>
                 </ul>
             </div>
         </div>
@@ -140,6 +139,9 @@
                 </div>
             </div>
         </section>
+        <div class="row">
+            <div class="col"></div>
+        </div>
         <footer>
             <div class="row">
                 <div class="col text-center align-self-baseline">

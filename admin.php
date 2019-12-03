@@ -22,7 +22,6 @@
                     <li class="nav-item" role="presentation"><a class="nav-link" href="index.php">Home</a></li>
                     <li class="nav-item" role="presentation"><a class="nav-link" href="requirements.php">Requirements</a></li>
                     <li class="nav-item" role="presentation"><a class="nav-link" href="login.php">LOGIN</a></li>
-                    <li class="nav-item" role="presentation"><a class="nav-link" href="registration.php">Register</a></li>
                 </ul>
             </div>
         </div>
@@ -31,13 +30,8 @@
         <section class="clean-block clean-form dark">
             <div class="container">
                 <div class="block-heading">
-                    <h2 class="text-info">Registration</h2>
-                    <p>Register an account if you haven't already.</p>
+                    <h2 class="text-info">Administration</h2>
                 </div>
-                <form action="validate-registration.php" method="post">
-                    <div class="form-group"><label for="name">Username</label><input class="form-control item" type="text" id="username" name="username"></div>
-                    <div class="form-group"><label for="password">Password</label><input class="form-control item" type="password" id="password" name="password"></div>
-                    <div class="form-group"><label for="email">Email</label><input class="form-control item" type="email" id="email" name="email"></div><button class="btn btn-primary btn-block" type="submit">Sign Up</button></form>
             </div>
         </section>
     </main>
