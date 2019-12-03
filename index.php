@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-    <title>Home - Brand</title>
+    <title>Homepage</title>
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,400i,700,700i,600,600i">
     <link rel="stylesheet" href="assets/fonts/simple-line-icons.min.css">
@@ -21,6 +21,7 @@
                 <ul class="nav navbar-nav ml-auto">
                     <li class="nav-item" role="presentation"><a class="nav-link" href="index.php">Home</a></li>
                     <li class="nav-item" role="presentation"><a class="nav-link" href="requirements.php">Requirements</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link" href="registration.php">Register</a></li>
                     <li class="nav-item" role="presentation"><a class="nav-link" href="login.php">LOGIN</a></li>
                 </ul>
             </div>
@@ -30,11 +31,27 @@
         <section id="initial-text" class="clean-block clean-hero" style="background-image: url(&quot;assets/img/Muse-Logo.png&quot;);color: rgba(0,0,0,0.64);origin: /* http://wallpaperlepi.com/wp-content/uploads/2014/08/Muse-Black-Image-Wallpaper-HD.jpg */;">
             <div class="text">
                 <h1 class="text-uppercase">Muse</h1>
-                <p>Welcome to Thomas's Muse Fanpage! Learn about the band, their music, and choose your favorites!</p><button class="btn btn-outline-light btn-lg" id="text-hide" type="button">Close</button></div>
+                <p>Welcome to Thomas's Muse Fanpage - Learn about the band and their music!</p><button class="btn btn-outline-light btn-lg" id="text-hide" type="button">Close</button></div>
         </section>
         <div class="row">
             <div class="col">
                 <div id="uprising-video" style="display: none;width: 80%;margin: auto;padding: 100px;" data-type="video/mp4" data-poster="#" data-video="#"></div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col" style="background-color: rgb(246,246,246);">
+                <div class="container text-center" style="margin: auto;width: 100%;"><button class="btn btn-info" id="latest" type="button" style="margin-top: 10px;">Latest News</button></div>
+                <div class="container text-center">
+                    <p id="news-text" style="font-size: 24;margin-top: 10px;"></p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col" style="background-color: rgb(246,246,246);">
+                <div class="container text-center" style="margin: auto;width: 100%;"><button class="btn btn-info" id="song" type="button" style="margin-top: 10px;">Song of the Week</button></div>
+                <div class="container text-center">
+                    <p id="song-text" style="font-size: 24;margin-top: 10px;"></p>
+                </div>
             </div>
         </div>
         <section class="clean-block clean-info dark" style="padding-bottom: 0px;">
@@ -73,12 +90,12 @@
                     </div>
                 </div>
                 <div class="row align-items-center">
-                    <div class="col-md-6"><img class="img-thumbnail" src="assets/img/drones.png" alt="Drones album cover" origin="https://crownnote.com/sites/default/files/drones.jpg"></div>
                     <div class="col-md-6">
                         <h3>Drones</h3>
                         <div class="getting-started-info">
                             <p>This album came out in 2015 as Muse's 7th release.</p>
                         </div><button class="btn btn-outline-primary btn-lg" id="drones-button" type="button">Toggle Songs</button></div>
+                    <div class="col-md-6"><img class="img-thumbnail" src="assets/img/drones.png" alt="Drones album cover" origin="https://crownnote.com/sites/default/files/drones.jpg"></div>
                 </div>
                 <div class="row align-items-center" id="drones" style="display: none;">
                     <div class="col">
@@ -139,14 +156,12 @@
                 </div>
             </div>
         </section>
-        <div class="row">
-            <div class="col"></div>
-        </div>
         <footer>
             <div class="row">
                 <div class="col text-center align-self-baseline">
-                    <p id="clock" style="margin-bottom: 0.1rem;font-size: 0.8rem;">Current time (GMT):&nbsp;</p>
+                    <p id="clock" style="margin-bottom: 0.1rem;font-size: 1.2rem;height: 100%;">Current time (GMT):&nbsp;</p>
                 </div>
+                <div class="col"><a href="logout.php"><button class="btn btn-secondary float-right" id="log-out" type="button" style="margin: 20px;margin-right: 20px;margin-top: 0px;">Log Out</button></a></div>
             </div>
         </footer>
     </main>

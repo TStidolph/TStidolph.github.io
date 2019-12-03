@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-    <title>Admin Controls</title>
+    <title>Registration Page</title>
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,400i,700,700i,600,600i">
     <link rel="stylesheet" href="assets/fonts/simple-line-icons.min.css">
@@ -31,16 +31,13 @@
         <section class="clean-block clean-form dark">
             <div class="container">
                 <div class="block-heading">
-                    <h2 class="text-info">Administration</h2>
+                    <h2 class="text-info">Registration</h2>
+                    <p>Create an account here.</p>
                 </div>
+                <form method="post" action="validate-registration.php">
+                    <div class="form-group"><label for="name">Username</label><input class="form-control item" type="text" id="name" name="username"></div>
+                    <div class="form-group"><label for="password">Password</label><input class="form-control item" type="password" id="password" name="password"></div><button class="btn btn-primary btn-block" type="submit">Sign Up</button></form>
             </div>
-            <form method="post" action="admin-change.php">
-                <div class="form-group"><label>Username</label><input class="form-control" type="text" id="existing-name" name="username"></div>
-                <div class="form-group"><label>New Username</label><input class="form-control" type="text" id="new-name" name="newname"></div><button class="btn btn-warning btn-block" id="change-name">Change Name<br></button>
-                <p class="text-center" id="change-output" style="margin-top: 10px;margin-bottom: 0px;"></p>
-            </form>
-            <form method="post" action="admin-delete.php">
-                <div class="form-group"><label>Username</label><input class="form-control" type="text" name="username"></div><button class="btn btn-danger btn-block" id="delete">Delete</button></form>
         </section>
     </main>
     <footer>

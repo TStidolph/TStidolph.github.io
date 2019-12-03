@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-    <title>Login - Brand</title>
+    <title>Login Page</title>
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,400i,700,700i,600,600i">
     <link rel="stylesheet" href="assets/fonts/simple-line-icons.min.css">
@@ -21,6 +21,7 @@
                 <ul class="nav navbar-nav ml-auto">
                     <li class="nav-item" role="presentation"><a class="nav-link" href="index.php">Home</a></li>
                     <li class="nav-item" role="presentation"><a class="nav-link" href="requirements.php">Requirements</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link" href="registration.php">Register</a></li>
                     <li class="nav-item" role="presentation"><a class="nav-link" href="login.php">LOGIN</a></li>
                 </ul>
             </div>
@@ -31,7 +32,7 @@
             <div class="container">
                 <div class="block-heading">
                     <h2 class="text-info">Log In</h2>
-                    <p>Admin access only</p>
+                    <p>Log in to your existing account.</p>
                 </div>
                 <form method="post" action="validate-login.php">
                     <div class="form-group"><label>Username</label><input class="form-control" type="text" name="username"></div>
@@ -42,8 +43,9 @@
     <footer>
         <div class="row">
             <div class="col text-center align-self-baseline">
-                <p id="clock" style="margin-bottom: 0.1rem;font-size: 0.8rem;">Current time (GMT):&nbsp;</p>
+                <p id="clock" style="margin-bottom: 0.1rem;font-size: 1.2rem;height: 100%;">Current time (GMT):&nbsp;</p>
             </div>
+            <div class="col"><a href="logout.php"><button class="btn btn-secondary float-right" id="log-out" type="button" style="margin: 20px;margin-right: 20px;margin-top: 0px;">Log Out</button></a></div>
         </div>
     </footer>
     <script src="assets/js/jquery.min.js"></script>
